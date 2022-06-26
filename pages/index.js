@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import Main from '../Components/Main'
+import Footer from '../Components/Footer'
 import ButtonAppBar from '../Components/navbar'
 
 const Home = () => (
@@ -16,7 +17,7 @@ const Home = () => (
   </main>
 
   <footer>
-
+    <Footer></Footer>
   </footer>
   </>
 )
